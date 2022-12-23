@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Source+Code+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.main{
+    background-color:blueviolet;
+    width: 100%;
+    padding-bottom: 40px;
+    
+  
+    
+}
+.nav{
+    color:white;
+    
+    padding: 18px 0px;
+    
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.info{
+    margin-top: 50px;
+    color: white;
+    width:600px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+    
+}
+
+.nav ul li{
+    font-size: 20px;
+    margin-left: 23px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   display:inline;
+   float: right;
+   margin-left: 20px;
+   padding-right: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+    
+    
+}
+
+    
+
+.about{
+    background-color:#1f2641;
+    height: 80%;
+    width:100%;
+    padding-bottom: 85px;
+    display: block;
+    padding-top: 20px;
+}
+
+.my{
+    
+    background-color:#383f5a;
+    width: 100%;
+    padding-bottom: 100px;
+   margin-top: 20px;
+   position: static;
+   display: grid;
+   grid-template-columns: 0fr 0fr 0fr;
+    
+}
+.newmy{
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+     
+    background-color:#383f5a;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+.first{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third{
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+.btn button{
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    padding:10px 5px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.form {
+    background-color: #1f2641;
+    margin: 0px 0px;
+    padding: 149px 119px;
+}
+.f1{
+    margin-left: 350px;
+    
+
+}
+#bn{
+    background-color: white;
+    color: blueviolet;
+    cursor: pointer;
+    border-radius: 20px;
+    padding:3px 6px;
+
+}
+#bn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.form-label{
+    color:white;
+    font-size:18px;
+}
+.form-control{
+    border-radius: 5px;
+}
+.form-check-label{
+    color: white;
+}
+
+#lab{
+    margin-right: 800px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .grid-container{
+    display:grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    column-gap: 20px;
+    position: relative;
+    top:40px;
+    
+    
+}
+.grid{
+    background-color: #606781;
+    width:80px;
+    padding-right: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px;
+}
+h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+ margin-top: 10px;
+ 
+ 
+}
+#c{
+    height: 90px;
+    margin-left: 45px;
+    margin-top: 10px;
+   
+}
+#html{
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+#css{
+    height: 70px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+.btnn{
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px 0px;
+}

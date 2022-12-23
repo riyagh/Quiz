@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Source+Code+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.main{
+    background-color:blueviolet;
+    width: 100%;
+    padding-bottom: 40px;
+    
+  
+    
+}
+.nav{
+    color:white;
+    
+    padding: 18px 0px;
+    
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.info{
+    background-color: #1f2641;
+    color: white;
+    width:100%;
+    
+    
+}
+
+.nav ul li{
+    font-size: 20px;
+    margin-left: 23px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   display:inline;
+   float: right;
+   margin-left: 20px;
+   padding-right: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+    
+    
+}
+
+    
+
+.about{
+    background-color:#1f2641;
+    height: 80%;
+    width:100%;
+    padding-bottom: 230px;
+    display: flex;
+   
+}
+
+.my{
+    margin-top:80px;
+    margin-left: 100px;
+    background-color: #1f2641;
+    
+}
+.my div{
+    color:white;
+    padding-top: 20px;
+}
+.first{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third{
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+.btn button{
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    padding:10px 5px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.form {
+    background-color: #1f2641;
+    margin: 0px 0px;
+    padding: 149px 119px;
+}
+.f1{
+    margin-left: 350px;
+    
+
+}
+#bn{
+    background-color: white;
+    color: blueviolet;
+    cursor: pointer;
+    border-radius: 20px;
+    padding:3px 6px;
+
+}
+#bn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.form-label{
+    color:white;
+    font-size:18px;
+}
+.form-control{
+    border-radius: 5px;
+}
+.form-check-label{
+    color: white;
+}
+img{
+    height: 400px;
+    position: absolute;
+    margin-left:620px;
+    background-color: #1f2641;
+}
+#lab{
+    margin-right: 800px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

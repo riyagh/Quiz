@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.container{
+    background-color: #3a415e;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 300px;
+    height: 300px;
+    position: static;
+}
+.main{
+    background-color:blueviolet;
+    width: 100%;
+    padding-bottom: 40px;
+    
+  
+    
+}
+.nav{
+    color:white;
+    
+    padding: 18px 0px;
+    
+    
+}
+.nav ul li{
+    font-size: 20px;
+    margin-left: 23px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   display:inline;
+   float: right;
+   margin-left: 20px;
+   padding-right: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+   
+   
+    
+    
+}
+body{
+    background-color: #1f2641;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    background-color:blueviolet;
+    width: 241px;
+    height: 300px;
+    top: 200px;
+    margin-left: 30px;
+    position: absolute;
+    padding-bottom: 51px;
+}
+.col{
+    margin-left: 290px;
+      
+      position: relative;
+      top: 20px;
+      margin-top:10px ;
+      
+}
+.form-control{
+    background-color: #1f2641;
+    color: white;
+    padding: 10px;
+    width:440px;
+
+}
+
+
+
+
+#cont{
+border-radius: 5px;
+cursor: pointer;
+color: white;
+background-color: red;
+padding:5px 10px;
+}
+p{
+    font-weight: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+svg{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#lab{
+    margin-right: 800px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-menu ul{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    }
+    .social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    }
+    .social-menu ul li .fab{
+    font-size: 20px;
+    line-height: 42px;
+    transition: .3s;
+    color: #000;
+    }
+    .social-menu ul li .fab:hover{
+    color: #fff;
+    }
+    .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    }
+    .social-menu ul li a:hover{
+    transform: translate(0, -10%);
+    }
+    .social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+    }
+    .social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+    }
+    .social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+    }
+    
