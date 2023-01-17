@@ -162,8 +162,13 @@ function next(){
         point+=10;
         sessionStorage.setItem("points",point);
     }
+    
     console.log(point);
 
     question_count++;
     show(question_count);
 }
+
+
+
+
